@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "Deepanshu" {
-  instance_type = "t2.micro" #change this
+  instance_type = "t2.micro" #change this for the demo of branch
   ami = "ami-053b0d53c279acc90" # change this
   subnet_id = "subnet-019ea91ed9b5252e7" # change this
 }
